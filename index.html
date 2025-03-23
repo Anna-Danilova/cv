@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Резюме Данилова Анна Геннадиевна">
+    <meta keywords="резюме">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="main-info">
+            <img class="avatar" src="avatar.jpg" alt="Аватар">
+            <section class="main-info__text">
+                <h1 class="title title--main">Данилова Анна Геннадиевна</h1>
+                <div class="card">
+                    <p class="text">Мне <strong>надоела</strong> моя работа и я хочу <em>учиться</em>.</p>
+                    <h2 class="title">Мои соцсети:</h2>
+                    <ul class="social-list">
+                        <li class="social__list-item"> <a class="link" href="https://t.me/ann_blacksea"
+                                target="_blank">Telegram</a>
+                        </li>
+                        <li class="social__list-item"> <a class="link" href="https://www.instagram.com/ann.blacksea"
+                                target="_blank">Instagram</a>
+                        </li>
+                    </ul>
+                    <h2 class="title">Мне нравится:</h2>
+                    <ul class="preferences-list">
+                        <li class="preferences-list__item">кофе</li>
+                        <li class="preferences-list__item">море</li>
+                        <li class="preferences-list__item">фотографировать</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <section class="card">
+            <h2 class="title">Опыт работы:</h2>
+            <table class="experience-table">
+                <thead>
+                    <th>Компания</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ООО СПК "Консоль"</td>
+                        <td>бухгалтер</td>
+                        <td>2016 - 2021</td>
+                    </tr>
+                    <tr>
+                        <td> - </td>
+                        <td>фотограф</td>
+                        <td>2020 - 2025</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "Яндекс"</td>
+                        <td>специалист</td>
+                        <td>2024 - 2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="card">
+            <h2 class="title">Связаться со мной:</h2>
+            <form class="feedback-form" action="">
+                <div class="feedback-form__group">
+                    <div class="feedback-form__item">
+                        <label for="name">Ваше имя:</label>
+                        <input class="feedback-form__input" type="text" id="name" placeholder="Введите Ваше имя">
+                    </div>
+                    <div class="feedback-form__item">
+                        <label for="email">Ваш email:</label>
+                        <input class="feedback-form__input" type="email" id="email" placeholder="Введите Вашу почту">
+                    </div>
+                </div>
+
+                <div class="feedback-form__item">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea class="feedback-form__input feedback-form__input--textarea" name="" id="message" cols="50"
+                        rows="10" placeholder="Напишите мне что-нибудь"></textarea>
+                </div>
+                <button class="button">Отправить</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
